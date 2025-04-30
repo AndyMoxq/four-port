@@ -9,12 +9,13 @@ class GetTrackingRequest extends BaseRequest {
         return self::END_POINT;
     }
 
-    public function setSubscriptionId($subscriptionId){
+    public function setSubscriptionId($subscriptionId): static{
         $body['subscriptionId'] = $subscriptionId;
         $this -> setBody($body);
+        return $this;
     }
 
-    public function validate(){
+    public function validate(): void{
         $body = $this -> getBody();
         if(empty($body['subscriptionId'])){
             throw new \Exception("subscriptionId is required", 1);
