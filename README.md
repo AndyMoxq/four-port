@@ -9,7 +9,7 @@ Ocean Tracking 是一个轻量级的 Laravel 扩展包，用于集成外部 API 
 推荐使用本地路径方式安装：
 
 ```bash
-composer require 4portun/tracking
+composer require 4port/ocean-tracking
 ```
 
 ## ⚙️ 配置 Configuration
