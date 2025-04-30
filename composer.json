@@ -1,5 +1,5 @@
 {
-  "name": "4portun/ocean-tracking",
+  "name": "4port/ocean-tracking",
   "type": "library",
   "autoload": {
     "psr-4": {
