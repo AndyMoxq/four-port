@@ -4,7 +4,7 @@ use Tracking\Ocean\Request\SubscribeRequest;
 use Tracking\Ocean\Response\SubscribeResponse;
 use Tracking\Ocean\Request\GetTrackingRequest;
 use Tracking\Ocean\Response\GetTrackingResponse;
-class OecanTracking{
+class OceanTracking{
     /**
      * 订阅海运跟踪
      * @param string $carrierCode
